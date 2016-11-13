@@ -1,0 +1,55 @@
+<h1></h1>
+<h2></h2>
+.
+.
+<h6></h6>  for headings and sub headings
+
+<p></p> paragraph
+
+<header></header>      group that says "this" goes top of page
+<head></head>
+<headline></headline>
+
+<main> </main>     main idea go here, middle of the page
+<footer></footer>  conveys info goes at the bottom of the page
+html does not tell you where to put <></> info on the page or style it. it acts as layout content organization.
+
+<a></a> just means anchor for links
+     // adding a attribute: add a name of attribute and = and ""  ex: <a href=""></a>
+     // href attribute default in browser is an underlined link with blue text
+
+     href color indication:
+     purple text = fine someone elses website, external website
+     green text = look for file on my computer, part of your own website
+
+images dont have closing tags, because images itself is NOT text, so it does not need a closer. (images are self closing tab)
+<img> tag, add attributes like source src=""
+
+
+<nav>  <!-- uurpose is to tell code reader that folowing code are navigation links -->
+  <ul>  <!-- wrapper of a list -->
+    <li>
+      <a href="index.html">Main</a>  <!-- do not put spaces in href="", following standard coding practices -->
+    </li><!-- stand for list item not link -->
+    <li><a href="about_us.html">About Us</a></li><!-- default look of <li> on broswer is a small bullet point -->
+  </ul>
+</nav>
+
+view, toggle soft warap
+view, panes, split right (view in 2 windows side by side)
+
+css (cascading style sheet) a different coding language from html
+  Design and layout your html elements(the look and feel)
+  maintain consistent styles
+
+  css zen gardden (website, they provide html, you provide the css)
+  background images is style
+
+  p (selector)
+  {
+  property
+  color: blue; <-- blue is value
+  }
+
+  /* size em is the size of m*/
+  /* in software development, px for pixels is not used*/
